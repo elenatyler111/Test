@@ -1,11 +1,11 @@
-可以。你之前给 Dominique 的写法很适合第一次联系架构师，尤其是先介绍自己，再说明项目背景，全程用 vous。这次我会把 Kaouther 的引荐放在前面，用一个具体用例说明需求，最后明确请他给出技术选型建议。
+对，先用 « Nous étudions actuellement… » 交代你们正在做什么，再用 « À terme… » 引出长期目标，读起来更自然。Kaouther 的引荐也可以放在自我介绍后面，让 Modou 先知道你为什么联系他。
 
-Bonjour [Prénom],
+Bonjour Modou,
 
-Je suis data scientist au sein de l’équipe IAM de CIB ITO Production Security. Suite à notre échange sur OpenSearch, Kaouther m’a conseillé de vous contacter car vous avez une vue d’ensemble des solutions data disponibles au sein de CIB.
+J’espère que vous allez bien. Je suis data scientist au sein de l’équipe IAM de CIB ITO Production Security. Lors de notre échange sur OpenSearch, Kaouther m’a conseillé de vous contacter car vous avez une vue d’ensemble des solutions data disponibles au sein de CIB.
 
-Nous travaillons actuellement sur un projet de data lake pour consolider des données IAM provenant de plusieurs sources côté CIB et ITG. L’un de nos cas d’usage consiste, par exemple, à croiser les données de MyIAM et d’ePassport avec les événements du SIEM pour repérer les accès qui auraient été accordés en dehors du circuit MyIAM.
+Nous étudions actuellement différentes solutions pour consolider et croiser des données issues de plusieurs systèmes, en partant des cas d’usage IAM et PAM. À terme, l’objectif est de mettre en place une plateforme de données commune aux équipes Production Security de CIB et d’ITG.
 
-Nous avons déjà étudié plusieurs pistes, dont OpenSearch et l’offre ITG autour de Starburst et d’IBM COS. Auriez-vous une vingtaine de minutes dans les prochains jours pour en discuter ? J’aimerais vous présenter nos cas d’usage et nos besoins techniques afin d’avoir votre avis sur la solution la plus adaptée parmi celles disponibles côté CIB.
+Nous avons déjà étudié l’offre Starburst d’ITG et exploré la piste Databricks. Seriez-vous disponible dans les prochains jours pour en discuter ? Nous aimerions vous présenter nos cas d’usage et nos besoins techniques pour avoir votre avis sur la solution qui vous semble la plus adaptée.
 
 Merci d’avance !
