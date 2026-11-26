@@ -1,11 +1,40 @@
-对，先用 « Nous étudions actuellement… » 交代你们正在做什么，再用 « À terme… » 引出长期目标，读起来更自然。Kaouther 的引荐也可以放在自我介绍后面，让 Modou 先知道你为什么联系他。
+Bonjour à tous. Modou, Marie, merci d’avoir pris le temps d’échanger avec nous aujourd’hui.
 
-Bonjour Modou,
+Je me présente rapidement, je m’appelle Weize, je suis data scientist dans l’équipe IAM de CIB ITO Production Security. En ce moment, je travaille sur le choix d’une plateforme de données pour nos besoins IAM.
 
-J’espère que vous allez bien. Je suis data scientist au sein de l’équipe IAM de CIB ITO Production Security. Lors de notre échange sur OpenSearch, Kaouther m’a conseillé de vous contacter car vous avez une vue d’ensemble des solutions data disponibles au sein de CIB.
+Ce qu’on aimerait avoir aujourd’hui, c’est votre regard d’architectes sur les pistes qu’on a étudiées. Je vous propose de commencer par le contexte et quelques cas d’usage concrets. Ensuite, on pourra discuter ensemble de Starburst, de Databricks et des autres options qui vous paraîtraient pertinentes.
 
-Nous étudions actuellement différentes solutions pour consolider et croiser des données issues de plusieurs systèmes, en partant des cas d’usage IAM et PAM. À terme, l’objectif est de mettre en place une plateforme de données commune aux équipes Production Security de CIB et d’ITG.
 
-Nous avons déjà étudié l’offre Starburst d’ITG et exploré la piste Databricks. Seriez-vous disponible dans les prochains jours pour en discuter ? Nous aimerions vous présenter nos cas d’usage et nos besoins techniques pour avoir votre avis sur la solution qui vous semble la plus adaptée.
+e point de départ, c’est l’arrêt prévu de la base de reporting MyIAM. Aujourd’hui, plusieurs rapports et services dépendent de cette base. Il faut donc assurer leur continuité. Et comme on doit de toute façon faire évoluer l’existant, on aimerait éviter de migrer une première fois vers une solution intermédiaire, puis une deuxième fois vers la plateforme cible.
 
-Merci d’avance !
+En parallèle, on a des besoins métier qui demandent de croiser des données de plusieurs systèmes. Je vais prendre un exemple, celui de la détection des bypass. La question qu’on cherche à résoudre est assez simple : quand un accès existe dans une application, est-ce qu’on retrouve la demande et l’approbation correspondantes dans MyIAM ?
+
+Pour y répondre, on envisage de croiser les données de SailPoint et d’ePassport avec les événements du SIEM. Si on identifie un accès pour lequel on ne retrouve pas d’approbation, il faut pouvoir fournir à l’équipe les éléments nécessaires pour vérifier s’il s’agit d’une exception légitime ou d’un accès à investiguer.
+
+On a aussi un besoin de réconciliation entre les droits approuvés dans MyIAM et ceux effectivement provisionnés dans ePassport. Et pour la recertification, il faut pouvoir fournir à l’outil de revue des accès un jeu de données fiable qui rassemble les identités, leurs droits et les responsables concernés.
+
+
+
+Sur cette deuxième slide, il y a un autre besoin concret : certaines extractions critiques reposent aujourd’hui sur des jobs SSIS difficiles à maintenir. Il faudra pouvoir reprendre ces traitements tout en assurant la continuité du reporting réglementaire et du suivi applicatif.
+
+On aimerait aussi pouvoir réutiliser les mêmes données consolidées pour plusieurs usages, avec des définitions métier communes, un responsable identifié et des accès maîtrisés. C’est ce qu’on entend ici par data products. À plus long terme, ces données pourraient également être interrogées par des agents IA, dans le respect des mêmes règles d’accès.
+
+Côté solutions, on a étudié l’offre Starburst d’ITG, avec IBM COS pour le stockage. On a également exploré la piste Databricks. On a eu un premier échange avec Kaouther sur OpenSearch, et c’est dans ce cadre qu’elle nous a orientés vers vous.
+
+Au vu des besoins qu’on vient de présenter, quelle approche vous semblerait la plus adaptée, et pourquoi ? En particulier, comment voyez-vous les pistes Starburst et Databricks dans notre contexte ? Et s’il existe une autre solution qui répondrait mieux à ces usages, on aimerait aussi avoir votre avis.
+
+
+
+Côté solutions, on a étudié l’offre Starburst d’ITG, avec IBM COS pour le stockage. On a également exploré la piste Databricks. On a eu un premier échange avec Kaouther sur OpenSearch, et c’est dans ce cadre qu’elle nous a orientés vers vous.
+
+Au vu des besoins qu’on vient de présenter, quelle approche vous semblerait la plus adaptée, et pourquoi ? En particulier, comment voyez-vous les pistes Starburst et Databricks dans notre contexte ? Et s’il existe une autre solution qui répondrait mieux à ces usages, on aimerait aussi avoir votre avis.
+
+
+
+Pour vous donner un peu de contexte, le point de départ, c’est l’arrêt prévu de la base de reporting MyIAM. On doit assurer la continuité des rapports et des services qui en dépendent. C’est donc par les cas d’usage IAM qu’on commence.
+
+Par la suite, d’autres équipes de Production Security, côté CIB et côté ITG, auront aussi des cas d’usage à couvrir. On cherche donc une plateforme qui puisse répondre aux besoins IAM dès aujourd’hui, puis évoluer progressivement pour intégrer de nouvelles sources de données, prendre en charge de nouveaux usages et absorber des volumes plus importants.
+
+Pour vous donner un exemple concret de ce qu’on doit pouvoir faire dès cette première étape, je vais prendre le cas de la détection des bypass.
+
+
