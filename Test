@@ -1,16 +1,12 @@
-有一点重复。第一段的 « voir avec toi comment y répondre avec l’offre DataHub V2 » 和第二段的 « préciser son rôle dans l’architecture et identifier les composants complémentaires » 都在讲会议目的。可以先用一句话交代 CIB 架构师对 Starburst 的意见，再直接说你希望和 Dominique 一起确定什么。另外，你开头用了 tu，结尾也统一用 tu。
-
 Objet — DataHub V2 – Architecture pour les premiers cas d’usage IAM
 
 Bonjour Dominique,
 
 J’espère que tu vas bien !
 
-Nous avons présenté nos premiers cas d’usage IAM aux architectes CIB. Parmi les solutions étudiées, Starburst leur semble la plus adaptée à nos besoins.
+Je te propose ce point pour te présenter nos premiers cas d’usage IAM et voir avec toi quelle architecture DataHub V2 serait la plus adaptée. L’idée est de préciser le rôle de Starburst et de déterminer, en fonction de nos besoins, quels autres composants seraient utiles dès cette première phase (IBM COS, Iceberg, Airflow, Spark ou dbt, par exemple).
 
-Je te propose de parcourir ces cas d’usage ensemble pour préciser le rôle de Starburst dans l’architecture et voir quels autres composants de DataHub V2 seraient utiles dès cette première phase (IBM COS, Iceberg, Airflow, Spark ou dbt, par exemple).
-
-Sur cette base, nous pourrons demander une première estimation des coûts à l’Offering Manager. Si tu penses que sa participation serait utile dès ce premier échange, n’hésite pas à lui transférer l’invitation.
+Une fois ce périmètre défini, nous pourrons demander une première estimation des coûts à l’Offering Manager. Si tu penses que sa participation serait utile dès ce point, n’hésite pas à lui transférer l’invitation.
 
 Merci et à bientôt,
 Weize
