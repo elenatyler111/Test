@@ -1,14 +1,14 @@
-Objet — Classification des données IAM et conditions d’hébergement
+不用写得那么细。之前用 « consolider et croiser… » 是为了说明平台的用途。给 CDO 写邮件时，交代长期目标、当前的 IAM 范围，以及为什么需要确认数据分类就够了。
 
-Bonjour [Prénom],
+Objet — Classification des données IAM et hébergement cloud
 
-Je suis data scientist au sein de l’équipe IAM de CIB ITO Production Security. Modou Bane et Marie Orhategaray m’ont conseillé de vous contacter au sujet de la classification des données IAM que nous envisageons d’intégrer à notre future plateforme de données.
+Bonjour Paul-François,
 
-Nous étudions actuellement l’offre DataHub V2 d’ITG pour consolider et croiser des données issues notamment de MyIAM et d’ePassport. Il s’agit principalement de données relatives aux identités, aux comptes, aux habilitations et aux demandes d’accès.
+Je me permets de vous contacter dans le cadre d’un projet dont l’objectif à terme est de mettre en place une plateforme de données commune aux équipes Production Security de CIB et d’ITG. La première phase porte sur les données IAM, pour lesquelles nous étudions actuellement l’offre DataHub V2 d’ITG.
 
-Pour avancer sur le choix de l’architecture, l’équipe ITG nous a recommandé de faire confirmer la classification de ces données côté CIB. Pourriez-vous nous indiquer la démarche à suivre et les éléments à vous fournir pour déterminer les conditions d’hébergement applicables ?
+Afin de déterminer quels environnements cloud pourraient héberger ces données, l’équipe ITG nous a demandé de faire confirmer leur classification côté CIB. Modou Bane et Marie Orhategaray nous ont conseillé de nous adresser à vous à ce sujet.
 
-Si ce sujet relève d’une autre équipe, pourriez-vous lui transmettre ma demande ou m’indiquer la personne à contacter ?
+Pourriez-vous nous indiquer la démarche à suivre et les informations à vous fournir ? Si le sujet relève d’une autre équipe, pourriez-vous lui transmettre notre demande ou nous indiquer la personne à contacter ?
 
 Merci d’avance pour votre aide.
 
