@@ -1,12 +1,16 @@
+是，« nos premiers cas d’usage » 连续出现了两次，而且第一段和 « L’idée est de… » 都在讲会议目的。把这两段合起来，附件只用一句话说明内容就够了。
+
 Objet — DataHub V2 – Architecture pour les premiers cas d’usage IAM
 
 Bonjour Dominique,
 
-J’espère que tu vas bien !
+J’espère que tu vas bien.
 
-Je te propose ce point pour te présenter nos premiers cas d’usage IAM et voir avec toi quelle architecture DataHub V2 serait la plus adaptée. L’idée est de préciser le rôle de Starburst et de déterminer, en fonction de nos besoins, quels autres composants seraient utiles dès cette première phase (IBM COS, Iceberg, Airflow, Spark ou dbt, par exemple).
+On te propose ce point pour définir avec toi l’architecture DataHub V2 adaptée à nos premiers cas d’usage IAM. On aimerait notamment préciser le rôle de Starburst et voir quels autres composants seraient nécessaires dès cette première phase (IBM COS, Iceberg, Airflow, Spark ou dbt, par exemple).
 
-Une fois ce périmètre défini, nous pourrons demander une première estimation des coûts à l’Offering Manager. Si tu penses que sa participation serait utile dès ce point, n’hésite pas à lui transférer l’invitation.
+Tu trouveras en pièce jointe le détail des besoins ainsi que les estimations disponibles sur la taille des bases de données sources.
 
-Merci et à bientôt,
+Une fois ce périmètre défini, on pourra demander une première estimation des coûts à l’Offering Manager. N’hésite pas à lui transférer l’invitation si tu penses que sa participation serait utile dès cet échange.
+
+Merci pour ton aide et à bientôt,
 Weize
