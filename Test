@@ -1,16 +1,30 @@
-对。会议目的可以写得更具体一点：先根据 IAM 用例明确需要哪些组件、ITG 提供哪些服务，再了解这些组件怎么收费，以及做初步预算需要哪些数据。 如果费用由 Offering Manager 负责，可以请 Dominique 直接把邀请转给对方。
+对，你的意思是先和 Dominique 明确架构和所需组件，之后再根据这个范围，请 Offering Manager 提供报价。法语里可以说 « demander une proposition chiffrée à l’Offering Manager »。如果现阶段只是想知道大概预算，« obtenir une première estimation des coûts » 更贴切。
 
-Objet — Offre Starburst d’ITG – Architecture et estimation des coûts pour les cas d’usage IAM
+会议邀请可以这样写，先把这次讨论的重点放在架构上：
+
+Objet — Offre Starburst d’ITG – Cadrage de l’architecture pour les cas d’usage IAM
 
 Bonjour Dominique,
 
-À la suite de notre échange avec les architectes CIB, Starburst ressort comme la solution la plus adaptée aux besoins IAM que nous leur avons présentés.
+Je vous propose ce point pour préciser avec vous l’architecture à envisager autour de Starburst pour nos premiers cas d’usage IAM. Nous aimerions notamment identifier les composants nécessaires et comprendre lesquels sont inclus dans l’offre ITG.
 
-Je vous propose ce point pour préciser, à partir de nos premiers cas d’usage, l’architecture à envisager autour de Starburst, les composants inclus dans l’offre ITG et ceux qui seraient à prévoir de notre côté.
+Une fois ce périmètre défini, nous pourrons demander une proposition chiffrée à l’Offering Manager. Si sa participation vous semble utile dès ce premier échange, n’hésitez pas à lui transférer l’invitation.
 
-Nous aimerions également comprendre comment ces composants sont facturés, connaître les tarifs disponibles et voir quelles informations vous seraient nécessaires pour établir une première estimation des coûts.
+Merci et à bientôt,
+Weize
 
-N’hésitez pas à transférer l’invitation à l’Offering Manager ou à toute autre personne qui pourrait nous éclairer sur ces points.
+
+那会议标题用 DataHub V2 更准确。这次是请 Dominique 根据第一批 IAM 需求，帮你们判断 Starburst 在架构中承担什么角色、还需要哪些组件。明确这个范围后，Offering Manager 才有依据做初步估价。
+
+Objet — DataHub V2 – Architecture pour les premiers cas d’usage IAM
+
+Bonjour Dominique,
+
+Je vous propose ce point pour vous présenter nos premiers cas d’usage IAM et voir avec vous comment y répondre avec l’offre DataHub V2.
+
+À la suite de notre échange avec les architectes CIB, Starburst ressort comme la solution la plus adaptée aux besoins présentés. Nous aimerions maintenant préciser son rôle dans l’architecture et identifier les composants complémentaires à prévoir dès cette première phase, par exemple IBM COS pour le stockage, Airflow pour l’orchestration, ou encore Spark ou dbt selon les transformations à réaliser.
+
+Une fois ce périmètre défini, nous pourrons demander une première estimation des coûts à l’Offering Manager. Si sa participation vous semble utile dès cet échange, n’hésitez pas à lui transférer l’invitation.
 
 Merci et à bientôt,
 Weize
