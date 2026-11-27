@@ -1,30 +1,16 @@
-对，你的意思是先和 Dominique 明确架构和所需组件，之后再根据这个范围，请 Offering Manager 提供报价。法语里可以说 « demander une proposition chiffrée à l’Offering Manager »。如果现阶段只是想知道大概预算，« obtenir une première estimation des coûts » 更贴切。
-
-会议邀请可以这样写，先把这次讨论的重点放在架构上：
-
-Objet — Offre Starburst d’ITG – Cadrage de l’architecture pour les cas d’usage IAM
-
-Bonjour Dominique,
-
-Je vous propose ce point pour préciser avec vous l’architecture à envisager autour de Starburst pour nos premiers cas d’usage IAM. Nous aimerions notamment identifier les composants nécessaires et comprendre lesquels sont inclus dans l’offre ITG.
-
-Une fois ce périmètre défini, nous pourrons demander une proposition chiffrée à l’Offering Manager. Si sa participation vous semble utile dès ce premier échange, n’hésitez pas à lui transférer l’invitation.
-
-Merci et à bientôt,
-Weize
-
-
-那会议标题用 DataHub V2 更准确。这次是请 Dominique 根据第一批 IAM 需求，帮你们判断 Starburst 在架构中承担什么角色、还需要哪些组件。明确这个范围后，Offering Manager 才有依据做初步估价。
+有一点重复。第一段的 « voir avec toi comment y répondre avec l’offre DataHub V2 » 和第二段的 « préciser son rôle dans l’architecture et identifier les composants complémentaires » 都在讲会议目的。可以先用一句话交代 CIB 架构师对 Starburst 的意见，再直接说你希望和 Dominique 一起确定什么。另外，你开头用了 tu，结尾也统一用 tu。
 
 Objet — DataHub V2 – Architecture pour les premiers cas d’usage IAM
 
 Bonjour Dominique,
 
-Je vous propose ce point pour vous présenter nos premiers cas d’usage IAM et voir avec vous comment y répondre avec l’offre DataHub V2.
+J’espère que tu vas bien !
 
-À la suite de notre échange avec les architectes CIB, Starburst ressort comme la solution la plus adaptée aux besoins présentés. Nous aimerions maintenant préciser son rôle dans l’architecture et identifier les composants complémentaires à prévoir dès cette première phase, par exemple IBM COS pour le stockage, Airflow pour l’orchestration, ou encore Spark ou dbt selon les transformations à réaliser.
+Nous avons présenté nos premiers cas d’usage IAM aux architectes CIB. Parmi les solutions étudiées, Starburst leur semble la plus adaptée à nos besoins.
 
-Une fois ce périmètre défini, nous pourrons demander une première estimation des coûts à l’Offering Manager. Si sa participation vous semble utile dès cet échange, n’hésitez pas à lui transférer l’invitation.
+Je te propose de parcourir ces cas d’usage ensemble pour préciser le rôle de Starburst dans l’architecture et voir quels autres composants de DataHub V2 seraient utiles dès cette première phase (IBM COS, Iceberg, Airflow, Spark ou dbt, par exemple).
+
+Sur cette base, nous pourrons demander une première estimation des coûts à l’Offering Manager. Si tu penses que sa participation serait utile dès ce premier échange, n’hésite pas à lui transférer l’invitation.
 
 Merci et à bientôt,
 Weize
