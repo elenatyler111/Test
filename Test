@@ -1,15 +1,16 @@
-我建议下周这次会以 architecture 为主，coûts 放在最后谈。CIB 架构师已经认为 Starburst 最符合你们目前的 IAM 需求，接下来找 Dominique，最有价值的是弄清楚：针对第一个用例，ITG 的方案具体怎么落地、哪些组件由 ITG 提供、哪些需要你们团队负责。 成本可以问到计费方式，以及做第一版估算需要哪些信息。
+对。会议目的可以写得更具体一点：先根据 IAM 用例明确需要哪些组件、ITG 提供哪些服务，再了解这些组件怎么收费，以及做初步预算需要哪些数据。 如果费用由 Offering Manager 负责，可以请 Dominique 直接把邀请转给对方。
 
-你可以直接在 Teams 上发：
+Objet — Offre Starburst d’ITG – Architecture et estimation des coûts pour les cas d’usage IAM
 
-Bonjour Dominique, j’espère que vous allez bien.
+Bonjour Dominique,
 
-Lors de notre dernier échange, vous nous aviez conseillé de faire confirmer la classification de nos données IAM auprès du CDO. Sauriez-vous qui contacter côté CIB à ce sujet ?
+À la suite de notre échange avec les architectes CIB, Starburst ressort comme la solution la plus adaptée aux besoins IAM que nous leur avons présentés.
 
-Depuis, nous avons présenté nos cas d’usage aux architectes CIB. Parmi les pistes étudiées, Starburst leur semble être la solution la plus adaptée à nos besoins.
+Je vous propose ce point pour préciser, à partir de nos premiers cas d’usage, l’architecture à envisager autour de Starburst, les composants inclus dans l’offre ITG et ceux qui seraient à prévoir de notre côté.
 
-Auriez-vous un créneau la semaine prochaine pour qu’on regarde ensemble comment l’offre ITG pourrait répondre à un premier cas d’usage IAM ? Nous aimerions notamment préciser l’architecture à envisager autour de Starburst, les composants fournis par ITG et ce qui serait à prendre en charge de notre côté. Ce serait aussi l’occasion de voir quelles informations vous seraient utiles pour une première estimation des coûts.
+Nous aimerions également comprendre comment ces composants sont facturés, connaître les tarifs disponibles et voir quelles informations vous seraient nécessaires pour établir une première estimation des coûts.
 
-Merci et bonne journée !
+N’hésitez pas à transférer l’invitation à l’Offering Manager ou à toute autre personne qui pourrait nous éclairer sur ces points.
 
-会上我会拿 MyIAM reporting DB 下线后如何继续供给一份现有报表 做例子。沿着这份报表从源数据讲到最终消费，Dominique 就更容易判断哪些环节需要存储、调度或计算，也更容易说明费用取决于哪些因素。
+Merci et à bientôt,
+Weize
