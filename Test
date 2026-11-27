@@ -1,14 +1,16 @@
-可以先说你们现在在研究什么，再用 « À terme, l’objectif est de… » 自然引出共用平台的长期目标。
+主要改前两段就可以。第一段的 « une étude… Nous étudions » 有点重复，而且 « ces premiers cas d’usage » 里的 ces 没有明确指代。第二段可以删掉 « (type de Cloud) »，把 access requests 换成 demandes d’accès。这样既保留了 CDO 判断所需的数据类别，也不用展开具体用例。
 
-Objet — Classification des données IAM et conditions d’hébergement cloud
+Objet — Classification des données IAM en vue d’un hébergement cloud
 
 Bonjour Paul-François,
 
-Je me permets de vous contacter dans le cadre d’une étude que nous menons au sein de l’équipe IAM de CIB ITO Production Security. Nous étudions actuellement l’offre DataHub V2 d’ITG pour consolider et croiser des données IAM issues notamment de MyIAM et d’ePassport. À terme, l’objectif est de mettre en place une plateforme de données commune aux équipes Production Security de CIB et d’ITG, en commençant par ces premiers cas d’usage IAM.
+J’espère que vous allez bien.
 
-Pour déterminer quels environnements cloud pourraient héberger les données concernées (identités, comptes et habilitations), l’équipe ITG nous a demandé de faire confirmer leur niveau de confidentialité côté CIB. Modou Bane et Marie Orhategaray nous ont conseillé de nous adresser à vous à ce sujet.
+Je me permets de vous contacter dans le cadre d’un projet que nous menons au sein de l’équipe IAM de CIB ITO Production Security. À terme, l’objectif est de mettre en place une plateforme de données commune aux équipes Production Security de CIB et d’ITG. Nous étudions actuellement l’offre DataHub V2 d’ITG pour nos premiers cas d’usage IAM.
 
-Pourriez-vous nous indiquer la démarche à suivre et les informations à vous fournir pour confirmer cette classification ? Si le sujet relève d’une autre équipe, pourriez-vous lui transmettre notre demande ou nous indiquer la personne à contacter ?
+L’équipe ITG nous a demandé de faire confirmer auprès du CDO côté CIB la classification des données concernées (identités, habilitations et demandes d’accès notamment), afin de déterminer dans quels environnements cloud elles peuvent être hébergées. Modou Bane et Marie Orhategaray nous ont conseillé de nous adresser à vous à ce sujet.
+
+Pourriez-vous nous indiquer la démarche à suivre et les informations à vous fournir ? Si le sujet relève d’une autre équipe, pourriez-vous lui transmettre notre demande ou nous indiquer la personne à contacter ?
 
 Merci d’avance pour votre aide.
 
